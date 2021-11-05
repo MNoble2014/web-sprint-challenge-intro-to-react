@@ -79,6 +79,17 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Put your answers underneath the questions:
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+
+    React JS is an open-source library for building user interfaces or UI components. It was originally created to solve better handling of dynamic data and for faster response times.
+
 1. Describe component state.
+
+    Component state is an object of a set of observable properties that control behavior of the component.
+
 1. Describe props.
+
+    Props stands for properties and is used for passing data from one component to another. 
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+    This lets you use state and other React features without writing a class. The Effect Hook lets you perform side effects in function components.
