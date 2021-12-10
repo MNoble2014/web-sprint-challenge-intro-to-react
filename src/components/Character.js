@@ -1,20 +1,24 @@
 // Write your Character component here
 import React from 'react';
-import { Card } from 'antd';
-import '../App.css';
+import styled from 'styled-components';
 
-const { Meta } = Card;
+const StarStyle = styled.div`
+display: flex;
+justify-content: center;
+margin: 10% 15% 0;
+background-color: coral;
+border: solid black 5px;
+border-radius: 10%10%;
+padding: 5%
+`
 
-export const Character = (props) => {
+const Character = props => {
+    const {info} = props
     return (
-        <div className='cards'>
-            <Card className ='card'
-            hoverable
-            cover={<img className='image' alt='example' src={props.data.image} />}
-            >
-            <Meta title={props.data.name}/>
-            <Meta description={props.data.status}/>
-            </Card>
-        </div>
+        <StarStyle>
+            <p>{info.name} was born in {info.birth_year}.<b>
+            They are {info.height} km tall.</b></p>
+        </StarStyle>
     )
 }
+export default Character;
