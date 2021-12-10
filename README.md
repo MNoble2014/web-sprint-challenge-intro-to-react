@@ -82,14 +82,14 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
     React JS is an open-source library for building user interfaces or UI components. It was originally created to solve better handling of dynamic data and for faster response times.
 
-1. Describe component state.
+2. Describe component state.
 
     Component state is an object of a set of observable properties that control behavior of the component.
 
-1. Describe props.
+3. Describe props.
 
     Props stands for properties and is used for passing data from one component to another. 
 
-1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+4. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
 
     This lets you use state and other React features without writing a class. The Effect Hook lets you perform side effects in function components.
